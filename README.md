@@ -3,12 +3,13 @@
 
 
 #CREACION DE PDF POR MEDIO DE IMAGENES DE DISCO
+"""
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Image
 doc = SimpleDocTemplate("final.pdf", pageSize=letter)
 images = [Image("./IMG1.png"),Image("./IMG2.png"),Image("./IMG3.png"),Image("./IMG4.png"),Image("./IMG5.png")]
 doc.build(images)
-
+"""
 
 #Ajuste tamaño imagenes
 def imagenes(nombre):
