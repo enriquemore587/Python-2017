@@ -4,6 +4,7 @@
 
 #CREACION DE PDF POR MEDIO DE IMAGENES DE DISCO
 
+~~~py
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Image
 doc = SimpleDocTemplate("final.pdf", pageSize=letter)
@@ -75,3 +76,4 @@ def guardarArchivo(nombre,line):
     saveFile.write(line)
     saveFile.write('\n')
     saveFile.close()
+~~~
