@@ -1,0 +1,3 @@
+MATRICULA, NOMBRE, EDAD, CARRERA, CALIFICACION
+1, jose, 22, isc, 10
+2, enrique, 10, isc, 10
